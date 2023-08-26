@@ -1,6 +1,8 @@
 # ChromaAura - Your Source of Colorful Inspiration
 
-![ChromaAura Logo](static/img/logo.png)
+<p align="center">
+  <img src="static/img/logo.png" alt="ChromaAura Logo" width="150" height="150">
+</p>
 
 ChromaAura is a web application that helps you discover the top predominant colors in your images. Whether you're seeking inspiration for your next creative project or just curious about the color palette of your favorite images, ChromaAura has you covered. Upload your image, and ChromaAura will unveil the dominant colors, ready to spark your creativity.
 
