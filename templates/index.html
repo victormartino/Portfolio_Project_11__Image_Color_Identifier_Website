@@ -1,0 +1,24 @@
+{% include "header.html" %}
+
+<div class="content">
+    <div class="px-4 py-1 my-3 text-center" style="color: white;">
+        <img class="d-block mx-auto mb-2" src="{{ url_for('static', filename='img/logo.png') }}" alt="" width="250" height="250">
+                <h1 class="display-6 fw-bold text-white">ChromaAura</h1>
+                <h3 class="text-white pt-2" style="font-weight: 300; font-size: 22px;">Your favorite source of inspiration.</h3>
+                <form method="POST" enctype="multipart/form-data">
+                    <label class="btn btn-lg btn-dark rounded-0 mt-4 py-3 border border-light"
+                           style="background-color: #000 !important;">Upload image to start
+                            <input type="file" name="file" style="display: none;" onchange="this.form.submit()">
+                    </label>
+                </form>
+                {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                    {% for message in messages %}
+                    <p>{{ message }}</p>
+                    {% endfor %}
+                  {% endif %}
+                {% endwith %}
+            </div>
+          </div>
+
+{% include "footer.html" %}
