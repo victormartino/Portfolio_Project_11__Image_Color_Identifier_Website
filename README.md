@@ -33,5 +33,4 @@ ChromaAura uses a combination of Python, Flask, Bootstrap, and color analysis lo
 
 1. Clone the repository: `git clone https://github.com/victormartino/Portfolio_Project_11__Image_Color_Identifier_Website`
 2. Navigate to the project directory: `cd ChromaAura`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the application: `python app.py`
+3. Run the application: `python main.py`
