@@ -8,7 +8,7 @@ ChromaAura is a web application that helps you discover the top predominant colo
 
 ## How It Works
 
-ChromaAura uses a combination of Python, Flask, Bootstrap, and color analysis logic to deliver its vibrant color insights. The following components bring ChromaAura to life:
+ChromaAura uses a combination of Python, Flask, Bootstrap, and Numpy to deliver its vibrant color insights. The following components bring ChromaAura to life:
 
 - **Flask Web Framework:** The project is built using Flask, a popular Python web framework, enabling the creation of a seamless user experience.
 
